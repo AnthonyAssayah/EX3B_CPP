@@ -55,6 +55,6 @@ class Matrix {
 
         // 6 - Input / Output operations
         friend ostream &operator<<(ostream &out, const Matrix &matrix);
-        friend istream &operator>>(istream &in, Matrix &matrix);   
+        friend istream &operator>>(istream &input, Matrix &matrix);   
  };
 }
